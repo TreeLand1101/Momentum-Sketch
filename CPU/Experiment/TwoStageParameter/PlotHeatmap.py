@@ -12,7 +12,7 @@ csv_file = sys.argv[1]
 output_dir = sys.argv[2]
 
 LABEL_SIZE = 18
-TICK_SIZE = 12
+TICK_SIZE = 16
 
 df = pd.read_csv(csv_file)
 df["Memory Ratio"] = df["Filter Ratio"].astype(str) + ":" + df["Sketch Ratio"].astype(str)

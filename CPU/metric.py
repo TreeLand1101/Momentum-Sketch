@@ -7,8 +7,8 @@ import sys
 import os
 from matplotlib.ticker import MaxNLocator
 
-LABEL_SIZE  = 20
-TICK_SIZE   = 20
+LABEL_SIZE  = 30
+TICK_SIZE   = 30
 LEGEND_SIZE = 16
 
 # Define a vivid colormap

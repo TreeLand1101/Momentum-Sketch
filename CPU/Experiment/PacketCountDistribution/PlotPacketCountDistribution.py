@@ -5,8 +5,9 @@ from pathlib import Path
 from matplotlib.ticker import LogFormatterMathtext, ScalarFormatter
 
 LABEL_SIZE  = 20
-TICK_SIZE   = 14
+TICK_SIZE   = 20
 # LEGEND_SIZE = 14
+
 
 def plot_rank_frequency(ranks, freqs, out_dir: Path, prefix: str, label_flow: str, log_scale: bool):
     fig, ax = plt.subplots(figsize=(10, 5), constrained_layout=True)
@@ -27,13 +28,20 @@ def plot_rank_frequency(ranks, freqs, out_dir: Path, prefix: str, label_flow: st
         suffix = f"{prefix}_rank-frequency.png"
         ax.yaxis.set_major_formatter(ScalarFormatter())
         ax.ticklabel_format(style='plain', axis='y')
+        ax.xaxis.set_major_formatter(ScalarFormatter())  # ensure no sci notation style
+        ax.ticklabel_format(style='plain', axis='x')
     
+    # Adjust offset text size for both axes
+    ax.xaxis.get_offset_text().set_fontsize(TICK_SIZE)
+    ax.yaxis.get_offset_text().set_fontsize(TICK_SIZE)
+
     ax.grid(True, which='both', linestyle='--', linewidth=0.5)
     
     out = out_dir / suffix
     fig.savefig(out, bbox_inches='tight')
     plt.close(fig)
     print(f"Saved to {out}")
+
 
 def plot_cdf(freqs, out_dir: Path, prefix: str, label_flow: str, log_x: bool):
     sorted_freq = np.sort(freqs)
@@ -55,12 +63,16 @@ def plot_cdf(freqs, out_dir: Path, prefix: str, label_flow: str, log_x: bool):
         ax.xaxis.set_major_formatter(ScalarFormatter())
         ax.ticklabel_format(style='plain', axis='x')
     
+    # Adjust offset text size for x-axis
+    ax.xaxis.get_offset_text().set_fontsize(TICK_SIZE)
+
     ax.grid(True, which='both', linestyle='--', linewidth=0.5)
     
     out = out_dir / suffix
     fig.savefig(out, bbox_inches='tight')
     plt.close(fig)
     print(f"Saved to {out}")
+
 
 def process_file(out_dir: Path, prefix: str, tag: str, label_flow: str):
     csv_file = out_dir / f"{prefix}_{tag}.csv"
@@ -75,6 +87,7 @@ def process_file(out_dir: Path, prefix: str, tag: str, label_flow: str):
     plot_rank_frequency(ranks, freqs, out_dir, f"{prefix}_{tag}", label_flow, log_scale=True)
     plot_cdf(freqs, out_dir, f"{prefix}_{tag}", label_flow, log_x=False)
     plot_cdf(freqs, out_dir, f"{prefix}_{tag}", label_flow, log_x=True)
+
 
 def main():
     parser = argparse.ArgumentParser(
