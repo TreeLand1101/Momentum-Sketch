@@ -11,8 +11,10 @@ if len(sys.argv) != 3:
 csv_file = sys.argv[1]
 output_dir = sys.argv[2]
 
-LABEL_SIZE = 18
-TICK_SIZE = 16
+LABEL_SIZE = 14
+TICK_SIZE = 12
+Y_ROTATION = 0   
+LABELPAD = 28  
 
 df = pd.read_csv(csv_file)
 df["Memory Ratio"] = df["Filter Ratio"].astype(str) + ":" + df["Sketch Ratio"].astype(str)
@@ -33,14 +35,18 @@ for metric, cmap, filename, title in metrics:
         pivot_table,
         annot=True,
         fmt=".2f",
-        cmap=cmap
+        cmap=cmap,
+        annot_kws={"size": TICK_SIZE}
     )
     
     ax.set_xlabel("α", fontsize=LABEL_SIZE)
-    ax.set_ylabel("γ:1-γ", fontsize=LABEL_SIZE)
+    ax.set_ylabel("γ:1-γ", fontsize=LABEL_SIZE, rotation=Y_ROTATION, va='center') 
+    ax.yaxis.labelpad = LABELPAD
     ax.tick_params(axis='both', labelsize=TICK_SIZE)
     
+    plt.setp(ax.get_yticklabels(), rotation=Y_ROTATION, ha='right')
+
     save_path = os.path.join(output_dir, filename)
     plt.savefig(save_path, bbox_inches='tight')
-    plt.clf()
+    plt.close()
     print(f"Saved {save_path}")
