@@ -1,0 +1,42 @@
+
+=== File: "../../equinix-chicago.dirA.20160121-140000.UTC.anon.dat" ===
+Threshold: 3216
+Total Packets: 32163023
+Total Flows: 1155323
+Retained Packets: 8052877
+Retained Flows: 7295
+
+=== File: "../../equinix-nyc.dirA.20180315-125910.UTC.anon.dat" ===
+Threshold: 2236
+Total Packets: 22366454
+Total Flows: 1197319
+Retained Packets: 7484471
+Retained Flows: 4594
+
+=== File: "../../equinix-nyc.dirA.20190117-125910.UTC.anon.dat" ===
+Threshold: 2957
+Total Packets: 29578511
+Total Flows: 2318625
+Retained Packets: 8859787
+Retained Flows: 8986
+
+=== File: "../../Campus.dat" ===
+Threshold: 4536
+Total Packets: 45363645
+Total Flows: 16242921
+Retained Packets: 4901953
+Retained Flows: 1367268
+
+=== File: "../../202111011400.dat" ===
+Threshold: 7487
+Total Packets: 74874817
+Total Flows: 11517777
+Retained Packets: 36302712
+Retained Flows: 2511
+
+=== File: "../../202211011400.dat" ===
+Threshold: 10578
+Total Packets: 105785612
+Total Flows: 11780751
+Retained Packets: 52292303
+Retained Flows: 2642
