@@ -1,0 +1,24 @@
+Dataset: 202111011400.dat
+Number of packets: 74874817
+Number of flows: 11517777
+
+=== Momentum-Sketc hSIMD ===
+Heavy Hitter Threshold  : 7487
+Insert Throughput (Mops): 15.2043
+Query Throughput (Mops) : 21.2694
+Recall                  : 0.617225
+Precision               : 1
+F1 Score                : 0.763314
+AAE                     : 2774.97
+ARE                     : 0.102239
+
+=== Momentum-Sketch ===
+Heavy Hitter Threshold  : 7487
+Insert Throughput (Mops): 10.5916
+Query Throughput (Mops) : 14.0798
+Recall                  : 0.61244
+Precision               : 1
+F1 Score                : 0.759644
+AAE                     : 2985.24
+ARE                     : 0.0959691
+

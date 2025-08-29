@@ -1,0 +1,44 @@
+Dataset: 202111011400.dat
+Number of packets: 74874817
+Number of flows: 11517777
+
+=== Default ===
+Heavy Hitter Threshold  : 7487
+Insert Throughput (Mops): 10.7086
+Query Throughput (Mops) : 14.2454
+Recall                  : 0.619617
+Precision               : 1
+F1 Score                : 0.76514
+AAE                     : 2827.59
+ARE                     : 0.0913601
+
+=== Additive ===
+Heavy Hitter Threshold  : 7487
+Insert Throughput (Mops): 10.2913
+Query Throughput (Mops) : 14.0267
+Recall                  : 0.572967
+Precision               : 1
+F1 Score                : 0.728517
+AAE                     : 5970.54
+ARE                     : 0.0299735
+
+=== Momentum-Only ===
+Heavy Hitter Threshold  : 7487
+Insert Throughput (Mops): 10.6126
+Query Throughput (Mops) : 14.0678
+Recall                  : 0.611244
+Precision               : 1
+F1 Score                : 0.758723
+AAE                     : 2801.76
+ARE                     : 0.095761
+
+=== Counter-Only ===
+Heavy Hitter Threshold  : 7487
+Insert Throughput (Mops): 10.4132
+Query Throughput (Mops) : 13.8413
+Recall                  : 0.582536
+Precision               : 1
+F1 Score                : 0.736206
+AAE                     : 4187.69
+ARE                     : 0.0309953
+

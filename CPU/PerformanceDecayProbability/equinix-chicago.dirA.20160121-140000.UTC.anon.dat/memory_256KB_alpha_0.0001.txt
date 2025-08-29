@@ -1,0 +1,44 @@
+Dataset: equinix-chicago.dirA.20160121-140000.UTC.anon.dat
+Number of packets: 32163023
+Number of flows: 1155323
+
+=== Default ===
+Heavy Hitter Threshold  : 3216
+Insert Throughput (Mops): 10.1068
+Query Throughput (Mops) : 13.4286
+Recall                  : 0.987366
+Precision               : 1
+F1 Score                : 0.993643
+AAE                     : 25.0059
+ARE                     : 0.00450036
+
+=== Additive ===
+Heavy Hitter Threshold  : 3216
+Insert Throughput (Mops): 10.0646
+Query Throughput (Mops) : 13.434
+Recall                  : 0.881438
+Precision               : 1
+F1 Score                : 0.936983
+AAE                     : 83.3815
+ARE                     : 0.0108145
+
+=== Momentum-Only ===
+Heavy Hitter Threshold  : 3216
+Insert Throughput (Mops): 10.0387
+Query Throughput (Mops) : 13.3871
+Recall                  : 0.985423
+Precision               : 1
+F1 Score                : 0.992658
+AAE                     : 22.5651
+ARE                     : 0.00397057
+
+=== Counter-Only ===
+Heavy Hitter Threshold  : 3216
+Insert Throughput (Mops): 10.0203
+Query Throughput (Mops) : 13.3786
+Recall                  : 0.897959
+Precision               : 1
+F1 Score                : 0.946237
+AAE                     : 127.707
+ARE                     : 0.0149369
+

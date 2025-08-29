@@ -1,0 +1,552 @@
+Dataset: equinix-chicago.dirA.20160121-140000.UTC.anon.dat
+Number of packets: 32163023
+Number of flows: 1155323
+
+=== 1.020000 ===
+Heavy Hitter Threshold  : 3216
+Insert Throughput (Mops): 10.1509
+Query Throughput (Mops) : 13.662
+Recall                  : 0.972789
+Precision               : 1
+F1 Score                : 0.986207
+AAE                     : 44.9001
+ARE                     : 0.00748239
+
+=== 1.040000 ===
+Heavy Hitter Threshold  : 3216
+Insert Throughput (Mops): 10.1351
+Query Throughput (Mops) : 13.6456
+Recall                  : 0.97862
+Precision               : 1
+F1 Score                : 0.989194
+AAE                     : 32.137
+ARE                     : 0.0055969
+
+=== 1.060000 ===
+Heavy Hitter Threshold  : 3216
+Insert Throughput (Mops): 10.1166
+Query Throughput (Mops) : 13.6347
+Recall                  : 0.979592
+Precision               : 1
+F1 Score                : 0.989691
+AAE                     : 31.3552
+ARE                     : 0.00540577
+
+=== 1.080000 ===
+Heavy Hitter Threshold  : 3216
+Insert Throughput (Mops): 10.0871
+Query Throughput (Mops) : 13.6141
+Recall                  : 0.986395
+Precision               : 1
+F1 Score                : 0.993151
+AAE                     : 26.4463
+ARE                     : 0.00468534
+
+=== 1.100000 ===
+Heavy Hitter Threshold  : 3216
+Insert Throughput (Mops): 10.1147
+Query Throughput (Mops) : 13.6459
+Recall                  : 0.984451
+Precision               : 1
+F1 Score                : 0.992165
+AAE                     : 23.6999
+ARE                     : 0.00415852
+
+=== 1.150000 ===
+Heavy Hitter Threshold  : 3216
+Insert Throughput (Mops): 10.1059
+Query Throughput (Mops) : 13.6577
+Recall                  : 0.982507
+Precision               : 1
+F1 Score                : 0.991176
+AAE                     : 20.9496
+ARE                     : 0.00365797
+
+=== 1.200000 ===
+Heavy Hitter Threshold  : 3216
+Insert Throughput (Mops): 10.127
+Query Throughput (Mops) : 13.6486
+Recall                  : 0.985423
+Precision               : 1
+F1 Score                : 0.992658
+AAE                     : 17.8994
+ARE                     : 0.00319986
+
+=== 1.250000 ===
+Heavy Hitter Threshold  : 3216
+Insert Throughput (Mops): 10.1521
+Query Throughput (Mops) : 13.5044
+Recall                  : 0.987366
+Precision               : 1
+F1 Score                : 0.993643
+AAE                     : 18.814
+ARE                     : 0.00345963
+
+=== 1.300000 ===
+Heavy Hitter Threshold  : 3216
+Insert Throughput (Mops): 10.1405
+Query Throughput (Mops) : 13.6221
+Recall                  : 0.986395
+Precision               : 1
+F1 Score                : 0.993151
+AAE                     : 16.33
+ARE                     : 0.00300144
+
+=== 1.350000 ===
+Heavy Hitter Threshold  : 3216
+Insert Throughput (Mops): 10.1577
+Query Throughput (Mops) : 13.6267
+Recall                  : 0.98931
+Precision               : 1
+F1 Score                : 0.994626
+AAE                     : 17.4283
+ARE                     : 0.00323501
+
+=== 1.400000 ===
+Heavy Hitter Threshold  : 3216
+Insert Throughput (Mops): 10.1618
+Query Throughput (Mops) : 13.6281
+Recall                  : 0.988338
+Precision               : 1
+F1 Score                : 0.994135
+AAE                     : 15.9971
+ARE                     : 0.0029057
+
+=== 1.450000 ===
+Heavy Hitter Threshold  : 3216
+Insert Throughput (Mops): 10.177
+Query Throughput (Mops) : 13.6007
+Recall                  : 0.98931
+Precision               : 1
+F1 Score                : 0.994626
+AAE                     : 17.6424
+ARE                     : 0.0032556
+
+=== 1.500000 ===
+Heavy Hitter Threshold  : 3216
+Insert Throughput (Mops): 10.1782
+Query Throughput (Mops) : 13.6332
+Recall                  : 0.987366
+Precision               : 1
+F1 Score                : 0.993643
+AAE                     : 15.8179
+ARE                     : 0.00290519
+
+=== 1.600000 ===
+Heavy Hitter Threshold  : 3216
+Insert Throughput (Mops): 10.247
+Query Throughput (Mops) : 13.6382
+Recall                  : 0.988338
+Precision               : 1
+F1 Score                : 0.994135
+AAE                     : 14.8269
+ARE                     : 0.002663
+
+=== 1.700000 ===
+Heavy Hitter Threshold  : 3216
+Insert Throughput (Mops): 10.2474
+Query Throughput (Mops) : 13.6583
+Recall                  : 0.98931
+Precision               : 1
+F1 Score                : 0.994626
+AAE                     : 15.0717
+ARE                     : 0.00275494
+
+=== 1.800000 ===
+Heavy Hitter Threshold  : 3216
+Insert Throughput (Mops): 10.2526
+Query Throughput (Mops) : 13.634
+Recall                  : 0.991254
+Precision               : 1
+F1 Score                : 0.995608
+AAE                     : 12.2461
+ARE                     : 0.00228284
+
+=== 1.900000 ===
+Heavy Hitter Threshold  : 3216
+Insert Throughput (Mops): 10.2654
+Query Throughput (Mops) : 13.5952
+Recall                  : 0.991254
+Precision               : 1
+F1 Score                : 0.995608
+AAE                     : 15.2167
+ARE                     : 0.00285489
+
+=== 2.000000 ===
+Heavy Hitter Threshold  : 3216
+Insert Throughput (Mops): 10.3041
+Query Throughput (Mops) : 13.6268
+Recall                  : 0.987366
+Precision               : 1
+F1 Score                : 0.993643
+AAE                     : 14.875
+ARE                     : 0.00281556
+
+Dataset: equinix-chicago.dirA.20160121-140000.UTC.anon.dat
+Number of packets: 32163023
+Number of flows: 1155323
+
+=== 1.020000 ===
+Heavy Hitter Threshold  : 3216
+Insert Throughput (Mops): 10.0986
+Query Throughput (Mops) : 13.6262
+Recall                  : 0.969874
+Precision               : 1
+F1 Score                : 0.984706
+AAE                     : 44.8808
+ARE                     : 0.00717791
+
+=== 1.040000 ===
+Heavy Hitter Threshold  : 3216
+Insert Throughput (Mops): 10.0554
+Query Throughput (Mops) : 13.5938
+Recall                  : 0.976676
+Precision               : 1
+F1 Score                : 0.988201
+AAE                     : 37.9532
+ARE                     : 0.00623543
+
+=== 1.060000 ===
+Heavy Hitter Threshold  : 3216
+Insert Throughput (Mops): 10.053
+Query Throughput (Mops) : 13.5849
+Recall                  : 0.977648
+Precision               : 1
+F1 Score                : 0.988698
+AAE                     : 27.4533
+ARE                     : 0.00470067
+
+=== 1.080000 ===
+Heavy Hitter Threshold  : 3216
+Insert Throughput (Mops): 10.0431
+Query Throughput (Mops) : 13.5592
+Recall                  : 0.980564
+Precision               : 1
+F1 Score                : 0.990186
+AAE                     : 23.9931
+ARE                     : 0.00428153
+
+=== 1.100000 ===
+Heavy Hitter Threshold  : 3216
+Insert Throughput (Mops): 10.0593
+Query Throughput (Mops) : 13.5855
+Recall                  : 0.985423
+Precision               : 1
+F1 Score                : 0.992658
+AAE                     : 25.4793
+ARE                     : 0.00444377
+
+=== 1.150000 ===
+Heavy Hitter Threshold  : 3216
+Insert Throughput (Mops): 10.0468
+Query Throughput (Mops) : 13.6396
+Recall                  : 0.987366
+Precision               : 1
+F1 Score                : 0.993643
+AAE                     : 22.0925
+ARE                     : 0.00384184
+
+=== 1.200000 ===
+Heavy Hitter Threshold  : 3216
+Insert Throughput (Mops): 10.1218
+Query Throughput (Mops) : 13.6448
+Recall                  : 0.986395
+Precision               : 1
+F1 Score                : 0.993151
+AAE                     : 16.7724
+ARE                     : 0.00298151
+
+=== 1.250000 ===
+Heavy Hitter Threshold  : 3216
+Insert Throughput (Mops): 10.1439
+Query Throughput (Mops) : 13.6008
+Recall                  : 0.987366
+Precision               : 1
+F1 Score                : 0.993643
+AAE                     : 19.5157
+ARE                     : 0.00336215
+
+=== 1.300000 ===
+Heavy Hitter Threshold  : 3216
+Insert Throughput (Mops): 10.0744
+Query Throughput (Mops) : 13.5415
+Recall                  : 0.988338
+Precision               : 1
+F1 Score                : 0.994135
+AAE                     : 18.5929
+ARE                     : 0.00336066
+
+=== 1.350000 ===
+Heavy Hitter Threshold  : 3216
+Insert Throughput (Mops): 10.0687
+Query Throughput (Mops) : 13.2969
+Recall                  : 0.987366
+Precision               : 1
+F1 Score                : 0.993643
+AAE                     : 17.0089
+ARE                     : 0.00300816
+
+=== 1.400000 ===
+Heavy Hitter Threshold  : 3216
+Insert Throughput (Mops): 9.95934
+Query Throughput (Mops) : 13.3516
+Recall                  : 0.985423
+Precision               : 1
+F1 Score                : 0.992658
+AAE                     : 16.572
+ARE                     : 0.00292573
+
+=== 1.450000 ===
+Heavy Hitter Threshold  : 3216
+Insert Throughput (Mops): 10.1164
+Query Throughput (Mops) : 13.4242
+Recall                  : 0.98931
+Precision               : 1
+F1 Score                : 0.994626
+AAE                     : 16.6434
+ARE                     : 0.00301331
+
+=== 1.500000 ===
+Heavy Hitter Threshold  : 3216
+Insert Throughput (Mops): 9.90719
+Query Throughput (Mops) : 13.418
+Recall                  : 0.984451
+Precision               : 1
+F1 Score                : 0.992165
+AAE                     : 16.6209
+ARE                     : 0.00300884
+
+=== 1.600000 ===
+Heavy Hitter Threshold  : 3216
+Insert Throughput (Mops): 10.1835
+Query Throughput (Mops) : 13.3831
+Recall                  : 0.98931
+Precision               : 1
+F1 Score                : 0.994626
+AAE                     : 16.5707
+ARE                     : 0.00304673
+
+=== 1.700000 ===
+Heavy Hitter Threshold  : 3216
+Insert Throughput (Mops): 9.98551
+Query Throughput (Mops) : 13.5856
+Recall                  : 0.988338
+Precision               : 1
+F1 Score                : 0.994135
+AAE                     : 18.3058
+ARE                     : 0.00316895
+
+=== 1.800000 ===
+Heavy Hitter Threshold  : 3216
+Insert Throughput (Mops): 10.134
+Query Throughput (Mops) : 13.2738
+Recall                  : 0.985423
+Precision               : 1
+F1 Score                : 0.992658
+AAE                     : 16.2485
+ARE                     : 0.00294708
+
+=== 1.900000 ===
+Heavy Hitter Threshold  : 3216
+Insert Throughput (Mops): 10.1454
+Query Throughput (Mops) : 13.4947
+Recall                  : 0.988338
+Precision               : 1
+F1 Score                : 0.994135
+AAE                     : 14.6549
+ARE                     : 0.00270969
+
+=== 2.000000 ===
+Heavy Hitter Threshold  : 3216
+Insert Throughput (Mops): 10.3018
+Query Throughput (Mops) : 13.5789
+Recall                  : 0.993197
+Precision               : 1
+F1 Score                : 0.996587
+AAE                     : 14.5117
+ARE                     : 0.00274395
+
+Dataset: equinix-chicago.dirA.20160121-140000.UTC.anon.dat
+Number of packets: 32163023
+Number of flows: 1155323
+
+=== 1.020000 ===
+Heavy Hitter Threshold  : 3216
+Insert Throughput (Mops): 10.0582
+Query Throughput (Mops) : 13.516
+Recall                  : 0.969874
+Precision               : 1
+F1 Score                : 0.984706
+AAE                     : 41.1784
+ARE                     : 0.00698964
+
+=== 1.040000 ===
+Heavy Hitter Threshold  : 3216
+Insert Throughput (Mops): 9.97371
+Query Throughput (Mops) : 13.5511
+Recall                  : 0.97862
+Precision               : 1
+F1 Score                : 0.989194
+AAE                     : 35.575
+ARE                     : 0.0056073
+
+=== 1.060000 ===
+Heavy Hitter Threshold  : 3216
+Insert Throughput (Mops): 9.93124
+Query Throughput (Mops) : 13.5824
+Recall                  : 0.97862
+Precision               : 1
+F1 Score                : 0.989194
+AAE                     : 26.6931
+ARE                     : 0.00443951
+
+=== 1.080000 ===
+Heavy Hitter Threshold  : 3216
+Insert Throughput (Mops): 10.0379
+Query Throughput (Mops) : 13.6125
+Recall                  : 0.983479
+Precision               : 1
+F1 Score                : 0.991671
+AAE                     : 25.5968
+ARE                     : 0.00443004
+
+=== 1.100000 ===
+Heavy Hitter Threshold  : 3216
+Insert Throughput (Mops): 10.0731
+Query Throughput (Mops) : 13.6146
+Recall                  : 0.985423
+Precision               : 1
+F1 Score                : 0.992658
+AAE                     : 23.9201
+ARE                     : 0.00404406
+
+=== 1.150000 ===
+Heavy Hitter Threshold  : 3216
+Insert Throughput (Mops): 10.0925
+Query Throughput (Mops) : 13.6156
+Recall                  : 0.986395
+Precision               : 1
+F1 Score                : 0.993151
+AAE                     : 19.0867
+ARE                     : 0.00332705
+
+=== 1.200000 ===
+Heavy Hitter Threshold  : 3216
+Insert Throughput (Mops): 10.0903
+Query Throughput (Mops) : 13.591
+Recall                  : 0.990282
+Precision               : 1
+F1 Score                : 0.995117
+AAE                     : 17.8656
+ARE                     : 0.0032477
+
+=== 1.250000 ===
+Heavy Hitter Threshold  : 3216
+Insert Throughput (Mops): 10.097
+Query Throughput (Mops) : 13.5931
+Recall                  : 0.985423
+Precision               : 1
+F1 Score                : 0.992658
+AAE                     : 17.7515
+ARE                     : 0.00310128
+
+=== 1.300000 ===
+Heavy Hitter Threshold  : 3216
+Insert Throughput (Mops): 10.0809
+Query Throughput (Mops) : 13.458
+Recall                  : 0.987366
+Precision               : 1
+F1 Score                : 0.993643
+AAE                     : 17.9577
+ARE                     : 0.00316157
+
+=== 1.350000 ===
+Heavy Hitter Threshold  : 3216
+Insert Throughput (Mops): 10.1559
+Query Throughput (Mops) : 13.4488
+Recall                  : 0.990282
+Precision               : 1
+F1 Score                : 0.995117
+AAE                     : 15.4701
+ARE                     : 0.00282273
+
+=== 1.400000 ===
+Heavy Hitter Threshold  : 3216
+Insert Throughput (Mops): 10.0794
+Query Throughput (Mops) : 13.5749
+Recall                  : 0.987366
+Precision               : 1
+F1 Score                : 0.993643
+AAE                     : 17.9656
+ARE                     : 0.00305762
+
+=== 1.450000 ===
+Heavy Hitter Threshold  : 3216
+Insert Throughput (Mops): 10.1044
+Query Throughput (Mops) : 13.6233
+Recall                  : 0.985423
+Precision               : 1
+F1 Score                : 0.992658
+AAE                     : 15.5523
+ARE                     : 0.00272082
+
+=== 1.500000 ===
+Heavy Hitter Threshold  : 3216
+Insert Throughput (Mops): 10.0855
+Query Throughput (Mops) : 13.6144
+Recall                  : 0.990282
+Precision               : 1
+F1 Score                : 0.995117
+AAE                     : 18.9303
+ARE                     : 0.00342368
+
+=== 1.600000 ===
+Heavy Hitter Threshold  : 3216
+Insert Throughput (Mops): 10.1419
+Query Throughput (Mops) : 13.614
+Recall                  : 0.988338
+Precision               : 1
+F1 Score                : 0.994135
+AAE                     : 17.2144
+ARE                     : 0.00301781
+
+=== 1.700000 ===
+Heavy Hitter Threshold  : 3216
+Insert Throughput (Mops): 10.1461
+Query Throughput (Mops) : 13.5674
+Recall                  : 0.987366
+Precision               : 1
+F1 Score                : 0.993643
+AAE                     : 18.1919
+ARE                     : 0.00339889
+
+=== 1.800000 ===
+Heavy Hitter Threshold  : 3216
+Insert Throughput (Mops): 10.1866
+Query Throughput (Mops) : 13.6583
+Recall                  : 0.988338
+Precision               : 1
+F1 Score                : 0.994135
+AAE                     : 16.7129
+ARE                     : 0.00305946
+
+=== 1.900000 ===
+Heavy Hitter Threshold  : 3216
+Insert Throughput (Mops): 10.2661
+Query Throughput (Mops) : 13.621
+Recall                  : 0.988338
+Precision               : 1
+F1 Score                : 0.994135
+AAE                     : 14.2547
+ARE                     : 0.00255236
+
+=== 2.000000 ===
+Heavy Hitter Threshold  : 3216
+Insert Throughput (Mops): 10.3287
+Query Throughput (Mops) : 13.626
+Recall                  : 0.988338
+Precision               : 1
+F1 Score                : 0.994135
+AAE                     : 15.1514
+ARE                     : 0.00281456
+

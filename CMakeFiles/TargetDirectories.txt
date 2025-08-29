@@ -1,3 +1,0 @@
-/home/treeland/Thesis/CMakeFiles/CPU.dir
-/home/treeland/Thesis/CMakeFiles/edit_cache.dir
-/home/treeland/Thesis/CMakeFiles/rebuild_cache.dir
